@@ -1,48 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE LAST OF US - SÉRIE</title>
+    <title>Peças de todos os PC's</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="src/css/estilos.css">
     <link rel="stylesheet" href="src/css/responsivo.css">
 
 </head>
+
 <body>
     <main>
 
         <div class="carrossel">
-            <img src="src/imagens/tlou-1.jpg" alt="Ellie e Joel abraçados" class="imagem ativa">
+            <img src="src/imagens/gabinete-projeto.png" alt="plano de fundo PC" class="imagem ativa">
 
-            <img src="src/imagens/tlou-2.jpg" alt="Personagens the last of us" class="imagem">
+            <img src="./src/imagens/placa-mae-intel.jpg" alt="plano de fundo placa mãe" class="imagem">
 
-            <img src="src/imagens/tlou-3.jpg" alt="Joel olhando pela janela" class="imagem">
+            <img src="./src/imagens/cpu-projeto.jpg" alt="plano de fundo processador" class="imagem">
 
-            <img src="src/imagens/tlou-4.jpg" alt="Ellie e Tess se olhando" class="imagem">
+            <img src="./src/imagens/gpu-projeto.webp" alt="plano de fundo placa de vídeo" class="imagem">
 
-            <img src="src/imagens/tlou-5.jpg" alt="Ellie e Joel caminhando em uma ciadade destruida" class="imagem">
+            <img src="./src/imagens/ram-projeto.jpg" alt="plano de fundo memória ram" class="imagem">
 
-            <img src="src/imagens/tlou-6.jpg" alt="Joel segurando uma laterna ligada na mão direita" class="imagem">
+            <img src="./src/imagens/hsSsd-projeto.webp" alt="plano de fundo hd ssd" class="imagem">
+
+            <img src="./src/imagens/fonte-projeto.jpg" alt="plano de fundo fonte de alimentação" class="imagem">
 
         </div>
 
         <div class="conteudo">
             <div class="informacoes">
-                <img class="logo"  src="./src/imagens/logo.png" alt="logo The Last Of Us">
+                <img class="logo peca" src="./src/imagens/gabinete-logo.png" alt="logo gabinete">
+                <h1 class="nome pecaResp">Peças de Um Computador</h1>
+                <p class="descricao ativo"></p>
+
+                <img class="logo" src="./src/imagens/placa-mae-logo.png" alt="logo placa mãe">
+                <h1 class="nome">Placa Mãe</h1>
                 <p class="descricao">
-                    The Last Of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome criada por Neil Druckmann. O drama narra um futuro pândemico que foi devastador para a humanidade, deixando os seres humanos à beira da extinção.
+                    São os componentes responsáveis por abrigar e conectar todas as outras peças do seu computador. É na placa-mãe que são instalados processador, memória RAM, placa de vídeo e todas as outras peças de expansão que conhecemos, tais como placas PCI Express.
+                </p>
+
+                <img class="logo" src="./src/imagens/cpu-logo.png" alt="logo CPU">
+                <h1 class="nome">CPU ou Processador</h1>
+                <p class="descricao">
+                    É a sigla em inglês para Unidade Central de Processamento, o componente do computador que concentra todas as principais operações que permitem a seu PC, celular, tablet ou videogame a funcionar. Portanto, o peça fica conhecida como o "cérebro" dos dispositivos
+                </p>
+
+                <img class="logo"  src="./src/imagens/gpu-logo.png" alt="logo GPU placa de vídeo">
+                <h1 class="nome">GPU ou Placa de vídeo</h1>
+                <p class="descricao">
+                    É um processador composto por muitos núcleos menores e mais especializados. Trabalhando em conjunto, os núcleos oferecem desempenho massivo quando uma tarefa de processamento pode ser dividida executada em muitos núcleos.
+                </p>
+
+                <img class="logo"  src="./src/imagens/ram-logo.png" alt="logo memória RAM">
+                <h1 class="nome">RAM</h1>
+                <p class="descricao">
+                    A sigla RAM vem do inglês “random access memory”, que pode ser traduzido para “memória de acesso aleatório”. Esse componente é responsável por dar mais agilidade e velocidade no funcionamento geral do sistema. Sem a memória RAM, tarefas como abrir programas e editar arquivos demorariam muito para serem realizadas.
+                </p>
+                
+                <img class="logo"  src="./src/imagens/hd-logo.png" alt="logo hd">
+                <h1 class="nome">HD e SSD</h1>
+                <p class="descricao">
+                    É a Unidade de Estado Sólido, e o HDD é a Unidade de Disco Rígido, ou simplesmente Disco Rígido. Tanto o SSD quanto o HDD compartilham a mesma função: guardar arquivos. Esses dados ficam salvos no disco para sempre e não somem quando o computador é desligado, ao contrário da memória RAM.
+                </p>
+                
+                <img class="logo"  src="./src/imagens/fonte-logo.png" alt="logo fonte">
+                <h1 class="nome">Fonte</h1>
+                <p class="descricao">
+                    É um componente de aparelhos eletrônicos que serve para transformar a energia elétrica que chega pelas tomadas em uma corrente elétrica contínua. Ou seja, ela recebe a energia em 110V ou 220V e transforma na voltagem adequada para o funcionamento do aparelho, que geralmente é 12V.
                 </p>
             </div>
 
             <div class="botoes-carrossel">
                 <button class="botao selecionado" id="botao1"></button>
+                <button class="botao"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
@@ -54,18 +95,24 @@
         <aside class="menu-lateral">
             <ul>
                 <li>
-                    <a href="#" target="_blank">
+                    <a href="https://github.com/LordeSeuZe" target="_blank">
                         <img src="./src/imagens/github.svg" alt="Icone GitHub" class="icone">
                     </a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">
+                    <a href="https://www.linkedin.com/in/rafael-cacho-09689b246/" target="_blank">
                         <img src="src/imagens/linkedin-in.svg" alt="Icone do LinkedIn" class="icone">
                     </a>
                 </li>
+                <!-- <li>
+                    <a href="https://www.glassdoor.com.br/member/home/index.htm" target="_blank">
+                        <img src="src/imagens/Glassddor-projeto.webp" alt="Icone do GlassDoor" class="icone">
+                    </a>
+                </li> -->
             </ul>
         </aside>
     </main>
     <script src="./src/js/index.js"></script>
 </body>
+
 </html>

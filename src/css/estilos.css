@@ -23,16 +23,57 @@ main:after{
 }
 
 .informacoes .logo{
-    max-width: 350px;
+    position: fixed;
+    width: 0;
+    font-size: 0;
+    font-style: 0; 
+    line-height: 0;
+    color: #ffffff00;
+}
+
+.informacoes .logo.peca{
+    position: initial;
+    width: auto;
+    max-width: 100px;
+    color: #ffffff;
     filter: invert(1);
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.informacoes .nome{
+    position: fixed;
+    font-size: 0;
+    font-style: 0; 
+    line-height: 0;
+    color: #ffffff00;
+}
+
+.informacoes .nome.pecaResp{
+    font-size: 32px;
+    position: initial;
+    color: #ffffff;
+    margin-bottom: 40px;
+    z-index: 1;
 }
 
 .informacoes .descricao{
+    width: 0;
+    position: fixed;
+    font-size: 0;
+    font-style: 0; 
+    line-height: 0;
+    color: #ffffff00;
+}
+
+.informacoes .descricao.ativo{   
     width: 49%;
-    font-style: 40px;
+    position: initial;
+    font-size: 18px;
+    font-style: 40px; 
     color: #ffffff;
     line-height: 30px;
+    z-index: 1;
 }
 
 .botoes-carrossel{

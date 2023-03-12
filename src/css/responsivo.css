@@ -15,6 +15,10 @@
         width: 60%;
         text-align: center;
     }
+
+    main:after{
+        background: linear-gradient(90deg, rgba(0,0,0,0.3982843137254902) 13%, rgba(0,0,0,0.8963234952183998) 50%, rgba(0,0,0,0.6778361002604167) 87%);
+    }
 }
 
 @media (max-width: 425px){
